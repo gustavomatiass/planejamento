@@ -6,98 +6,24 @@
 }
 
 :root {
-    --cor01: #1CA1FA;
-    --cor02: #1680C7;
-    --cor03: #0D4F7A;
-    --cor04: #67C0FB;
-}
-
-header {
-    background-color: var(--cor03);
-    margin: 0px;
-    padding: 30px;
-    text-align: center;
+    --cor01: #143F59;
+    --cor02: #03738C;
+    --cor03: #F26E22;
+    --cor04: #D94711;
 }
 
 header > h1 {
-    padding-top: 40px;
-    font-variant: small-caps;
-    color: white;
-}
-
-header > p {
-    padding-top: 40px ;
-    text-align: left;
-}
-
-header  a {
-    text-decoration: none;
-    color: white;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-body {
-    min-width: 100vh;
-    
-}
-
-h2 {
-   margin: 50px;
-}
-
-section {
-    margin: 50px ;
+    text-align: right;
     padding: 10px;
-    background-color: white;
-    width: 600px;
-    padding-bottom: em;
-}
-
-p {
-    padding-bottom: 3em;
-}
-
-.imagem {
-    padding: 10px;
-    margin: 80px;
-    background-color: rgba(0, 0, 0, 0.609);
-}
-
-.normal {
-    
-}
-
-.imagem {
-    background-color: rgba(0, 0, 0, 0.692);
-    color: white;
-}
-
-#img01 {
-    background-image: url('imagem/img01.jpg');
-    background-position: center center;
-}
-
-#img02 {
-    background-image: url('imagem/img02.jpg');
-}
-
-p.img01 {
-    background-color: black;
-}
-
-footer {
-    background-color: var(--cor03);
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-footer a {
-    text-decoration: none;
-    color: white;
+    background-color: #D94711;
 }
 
 
+
+header {
+ background-image: url(imagem/publico.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center ;
+ width: 800px;
+}
