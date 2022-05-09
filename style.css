@@ -1,8 +1,11 @@
 @charset "UTF-8";
 
 * {
-    margin: 0px;
+    margin: auto;
     padding: 0px;
+    max-width: 10037px;
+    min-width: 750px;
+    text-decoration: none;
 }
 
 :root {
@@ -14,16 +17,57 @@
 
 header > h1 {
     text-align: right;
-    padding: 10px;
+    padding: px;
     background-color: #D94711;
 }
 
+.titulo{
+    color: white;
+    margin: 10px;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.044);
+    
+}
 
+a{
+    color: var(--cor02);
+    width: 20px;
+}
+
+.myname{
+    padding: 20px;
+    margin: -27px;
+}
 
 header {
- background-image: url(imagem/publico.png);
+ background-image: url(imagem/pj.png);
  background-repeat: no-repeat;
  background-size: cover;
  background-position: center center ;
- width: 800px;
+ width: 1086px;
+ padding: 302px;
+}
+
+body{
+    background-color: rgba(57, 57, 57, 0.968);
+    margin: auto;
+    
+}
+section{
+    padding: 39px;
+    margin: 51px;
+    background-color: white;
+    font-size: 2em;
+}
+
+.titulo02{
+    color: #03738C;
+    padding: 20px;
+    margin: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: #143F59;
+    padding: 20px;
 }
