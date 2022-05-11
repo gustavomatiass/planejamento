@@ -23,11 +23,13 @@ header > h1 {
 
 .titulo{
     color: white;
-    margin: 10px;
+    margin: -150px;
     padding: 2px;
-    background-color: rgba(0, 0, 0, 0.044);
-    
+    background-color: rgba(0, 0, 0, 0.818);
+    text-align: center;
+    font-size: 3em;
 }
+
 
 a{
     color: var(--cor02);
@@ -64,6 +66,10 @@ section{
     color: #03738C;
     padding: 20px;
     margin: 10px;
+}
+
+.imagem2{
+    width: 20px;
 }
 
 footer{
