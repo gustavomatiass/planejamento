@@ -3,77 +3,81 @@
 * {
     margin: auto;
     padding: 0px;
-    max-width: 10037px;
-    min-width: 750px;
+    
     text-decoration: none;
 }
 
 :root {
-    --cor01: #143F59;
-    --cor02: #03738C;
-    --cor03: #F26E22;
-    --cor04: #D94711;
+    --cor01: #404040;
+    --cor02: #0D0D0D;
+    --cor03: #737373;
+    --cor04: #F2F2F2;
 }
 
-header > h1 {
-    text-align: right;
-    padding: px;
-    background-color: #D94711;
-}
-
-.titulo{
-    color: white;
-    margin: -150px;
-    padding: 2px;
-    background-color: rgba(0, 0, 0, 0.818);
-    text-align: center;
-    font-size: 3em;
-}
-
-
-a{
-    color: var(--cor02);
-    width: 20px;
-}
-
-.myname{
+.banner{
+    color: black;
+    margin: -10px;
     padding: 20px;
-    margin: -27px;
+    display: flex;
 }
-
-header {
- background-image: url(imagem/pj.png);
- background-repeat: no-repeat;
- background-size: cover;
- background-position: center center ;
- width: 1086px;
- padding: 302px;
+.list{
+    display: flex;
+    flex: content;
+    padding: 25px;
+    padding-right: 20px;
+    margin: 20px;
+    max-width: 185vh;
+}
+.sobre{
+    padding-left: 910px;
+    display: flex;
+}
+.fcn{
+    padding-left: 150px;
 }
 
 body{
-    background-color: rgba(57, 57, 57, 0.968);
     margin: auto;
-    
 }
-section{
-    padding: 39px;
-    margin: 51px;
-    background-color: white;
+.titulo{
+    padding: 80px;
+    text-align: center;
+}
+.titulo2{
+    font-size: 3em;
+}
+.subtitulo{
+    padding-top: 25px;
+    padding-bottom: 50px;
     font-size: 2em;
 }
-
-.titulo02{
-    color: #03738C;
-    padding: 20px;
-    margin: 10px;
+.img-eu{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
 }
-
-.imagem2{
-    width: 20px;
+section{
+    margin: 150px;
+    font-size: 2em;
+    padding: 10px;
+    
 }
-
-footer{
+.primeira-img{
     text-align: center;
-    background-color: #143F59;
-    padding: 20px;
+}
+.titulo03{
+    color:rgb(0, 121, 0);
+    font-size: 2em;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+footer{
+    background-color: rgb(0, 121, 0);
+    padding: 45px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+a{
+    color: white;
 }
